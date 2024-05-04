@@ -57,11 +57,101 @@ article div
   margin-left: 1100px;
 }
 
-.vertical{
-    width: 200px;
-    height: 300px;
-    padding: 300px;
-   background-color: black;
+.containerl{
+
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
 }
 
+.box {
+    width: 25% ;
+    height: 100%;
+    font-size: 65;
+    text-align: right;
     
+}
+
+#about{
+margin-top: 30px ;
+
+}
+
+#work{
+margin-top: 400px;
+
+}
+#contact{
+    margin-top: 400px;
+}
+#Resume{
+    margin-top: 400px;
+}
+
+.containerd{
+
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+    float: inline-end;
+    margin-top: 0px;
+    
+}
+
+.text {
+    width: 75% ;
+    height: 100%;
+    font-size: 20;
+    text-align: center;
+  
+    
+}
+
+#aboutt{
+    display: flex;
+    flex-direction: column;
+    width: 70% ;
+    height: 100%;
+    font-size: 25;
+    text-align: left;
+    margin-top: -1025px;
+    margin-left: 30%;
+}
+
+
+
+.Images {
+
+    border-style: solid;
+    border-top: #4b4948;
+    border-right: #4b4948;
+    border-bottom: #4b4948;
+}
+
+
+#mastercheif{
+   background-size: cover;
+   height: 300px;
+   width: 500px;
+   margin-top: 200px;
+   margin-left: 20px;
+   border-style: solid;
+  border-width: 5px;
+  border-color: #4b4948;
+}
+
+#zelda {
+    background-size: contain;
+    height: 300px;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+
+}
+
+.footer{
+   margin-top: 300px;
+   display: inline-block;
+   align-content: space-between;
+
+}
